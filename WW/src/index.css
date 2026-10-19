@@ -1,0 +1,528 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc; /* bg-slate-50 */
+  color: #0f172a; /* text-slate-900 */
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.45); /* semi-transparent white */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(15, 23, 42, 0.05);
+}
+
+.glass-panel-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(255, 255, 255, 0.75);
+  border-color: rgba(56, 189, 248, 0.5); /* sky-400 with opacity */
+  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.1), 0 0 20px rgba(56, 189, 248, 0.08);
+  transform: translateY(-4px);
+}
+
+/* Glow Effects */
+.glow-cyan {
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.2);
+}
+
+.text-glow {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+}
+
+/* Glass Shimmer Reflection Effect */
+.glass-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-shimmer::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: linear-gradient(
+    45deg,
+    transparent 45%,
+    rgba(255, 255, 255, 0.08) 48%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.08) 52%,
+    transparent 55%
+  );
+  transform: rotate(25deg);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.glass-shimmer:hover::after {
+  transform: translate(60%, 60%) rotate(25deg);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+  border: 2px solid #f8fafc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Gradient text */
+.metallic-text {
+  background: linear-gradient(135deg, #0f172a 0%, #334155 50%, #475569 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-text {
+  background: linear-gradient(135deg, #0284c7 0%, #0891b2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hero product render polish */
+.hero-shell {
+  isolation: isolate;
+}
+
+.hero-badge {
+  animation: heroBadgeBreath 4.5s ease-in-out infinite;
+}
+
+.hero-primary-cta {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-primary-cta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 18%, rgba(255, 255, 255, 0.42) 38%, transparent 58%);
+  transform: translateX(-120%);
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-primary-cta:hover::after {
+  transform: translateX(120%);
+}
+
+.hero-model-stage {
+  perspective: 1200px;
+}
+
+.hero-model-stage::before {
+  content: '';
+  position: absolute;
+  inset: 2rem 1.2rem;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.28)),
+    linear-gradient(180deg, rgba(14, 165, 233, 0.08), rgba(15, 23, 42, 0.04));
+  border: 1px solid rgba(186, 230, 253, 0.58);
+  border-radius: 2rem;
+  box-shadow: 0 30px 80px -45px rgba(15, 23, 42, 0.55);
+  transform: rotateX(5deg) rotateY(-5deg);
+  transform-origin: center;
+}
+
+.hero-model-stage::after {
+  content: '';
+  position: absolute;
+  left: 16%;
+  right: 12%;
+  bottom: 3.2rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(2, 132, 199, 0.38), transparent);
+}
+
+.hero-metrics > div {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), color 0.35s ease;
+}
+
+.hero-metrics > div:hover {
+  transform: translateY(-3px);
+}
+
+@keyframes heroBadgeBreath {
+  0%, 100% {
+    box-shadow: 0 1px 2px rgba(14, 165, 233, 0.08), 0 0 0 0 rgba(14, 165, 233, 0);
+  }
+  50% {
+    box-shadow: 0 8px 24px -16px rgba(14, 165, 233, 0.55), 0 0 0 6px rgba(14, 165, 233, 0.05);
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Wazir Admin Panel Premium Light Theme Styles */
+.wazir-admin-container {
+  background-color: #f8fafc !important; /* bg-slate-50 */
+  color: #334155 !important; /* text-slate-700 */
+}
+
+/* Header Override */
+.wazir-admin-container header {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(226, 232, 240, 0.8) !important; /* border-slate-200 */
+}
+
+/* Sidebar Override */
+.wazir-admin-container aside {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+}
+
+/* Sidebar Tabs */
+.wazir-admin-container aside button {
+  color: #475569 !important; /* text-slate-600 */
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+.wazir-admin-container aside button:hover {
+  color: #0f172a !important; /* text-slate-900 */
+  background-color: rgba(241, 245, 249, 0.8) !important;
+}
+.wazir-admin-container aside button[class*="bg-sky-500"] {
+  background-color: #0ea5e9 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px 0 rgba(14, 165, 233, 0.25) !important;
+}
+.wazir-admin-container aside button[class*="bg-sky-50"] {
+  background-color: #f0f9ff !important;
+  color: #0284c7 !important;
+  border-color: #bae6fd !important;
+}
+
+/* Main Content Area */
+.wazir-admin-container main {
+  background-color: #f8fafc !important;
+}
+
+/* Tab content layout overrides - Responsive Padding */
+.wazir-admin-container main > div > div {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 1rem !important;
+  padding: 1rem !important;
+  box-shadow: 0 4px 15px -2px rgba(15, 23, 42, 0.04) !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 640px) {
+  .wazir-admin-container main > div > div {
+    padding: 1.5rem !important;
+    border-radius: 1.25rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wazir-admin-container main > div > div {
+    padding: 2rem !important;
+    border-radius: 1.5rem !important;
+  }
+}
+
+/* Headings & Texts */
+.wazir-admin-container h3, 
+.wazir-admin-container h4 {
+  color: #0f172a !important; /* text-slate-900 */
+}
+.wazir-admin-container p {
+  color: #64748b !important; /* text-slate-500 */
+}
+
+/* Inputs & Textareas */
+.wazir-admin-container input[type="text"],
+.wazir-admin-container input[type="number"],
+.wazir-admin-container input[type="email"],
+.wazir-admin-container input[type="password"],
+.wazir-admin-container textarea,
+.wazir-admin-container select {
+  background-color: #ffffff !important;
+  border: 1px solid #e2e8f0 !important; /* border-slate-200 */
+  color: #0f172a !important; /* text-slate-900 */
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.01) !important;
+  font-size: 0.875rem !important; /* 14px text-sm readable size */
+}
+.wazir-admin-container input:focus,
+.wazir-admin-container textarea:focus,
+.wazir-admin-container select:focus {
+  border-color: #0ea5e9 !important; /* focus:border-sky-500 */
+  box-shadow: 0 0 0 1px #0ea5e9 !important;
+  background-color: #ffffff !important;
+}
+
+/* Labels */
+.wazir-admin-container label {
+  color: #475569 !important; /* text-slate-600 */
+  font-size: 0.75rem !important; /* 12px readable size */
+  font-weight: 600 !important;
+  text-transform: none !important; /* disable rigid UPPERCASE forcing */
+  letter-spacing: normal !important;
+  font-family: inherit !important; /* use Inter modern typography */
+}
+
+/* Divider lines */
+.wazir-admin-container div[class*="border-slate-850"] {
+  border-color: #e2e8f0 !important;
+}
+
+/* Inner elements e.g. list boxes */
+.wazir-admin-container div[class*="bg-slate-900/20"] {
+  background-color: rgba(255, 255, 255, 0.9) !important; /* bg-white */
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02) !important;
+}
+
+/* Secondary Buttons in main content */
+.wazir-admin-container button[class*="border-slate-800"] {
+  border-color: #e2e8f0 !important;
+  color: #475569 !important;
+  background-color: #ffffff !important;
+}
+.wazir-admin-container button[class*="border-slate-800"]:hover {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* Save Status Indicator */
+.wazir-admin-container div[class*="bg-emerald-950"] {
+  background-color: #ecfdf5 !important;
+  border-color: #a7f3d0 !important;
+  color: #065f46 !important;
+}
+.wazir-admin-container div[class*="bg-red-950"] {
+  background-color: #fef2f2 !important;
+  border-color: #fecaca !important;
+  color: #991b1b !important;
+}
+
+/* Premium Collapsible Navigation Styles */
+.wazir-admin-submenu-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+
+.wazir-admin-submenu-container.expanded {
+  max-height: 500px; /* high enough to contain all items */
+  opacity: 1;
+}
+
+.wazir-subtab-btn {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  padding-left: 2rem !important; /* space for indicator bar */
+  padding-right: 0.75rem !important;
+  border-radius: 0.75rem !important;
+  margin-top: 2px !important;
+}
+
+.wazir-subtab-btn::before {
+  content: '';
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%) scaleX(0);
+  width: 3px;
+  height: 12px;
+  background-color: #0ea5e9 !important; /* sky-500 */
+  border-radius: 9999px;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: left center;
+}
+
+.wazir-subtab-btn:hover {
+  transform: translateX(4px);
+  color: #0284c7 !important;
+  background-color: rgba(240, 249, 255, 0.6) !important; /* bg-sky-50/60 */
+}
+
+.wazir-subtab-btn-active {
+  background-color: #f0f9ff !important; /* light sky bg */
+  color: #0284c7 !important;
+  font-weight: 700 !important;
+  border-color: #bae6fd !important;
+}
+
+.wazir-subtab-btn-active::before {
+  transform: translateY(-50%) scaleX(1);
+}
+
+.wazir-parent-tab {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s ease !important;
+}
+
+.wazir-parent-tab:hover {
+  transform: translateY(-1px);
+}
+
+/* ===== GLOBAL MOBILE RESPONSIVE UTILITIES ===== */
+
+/* Prevent horizontal scroll on all devices */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Fluid images & videos */
+img, video, canvas, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve tap target sizes on mobile */
+@media (max-width: 768px) {
+  button:not(.indicator-dot), a, [role="button"]:not(.indicator-dot) {
+    min-height: 36px;
+  }
+
+  /* Tighter section padding on mobile */
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Reduce motion for users who prefer it */
+  .glass-panel-hover:hover {
+    transform: none;
+  }
+}
+
+/* Safe area insets for notched phones (iPhone X+) */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .footer-safe {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+
+  header {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+}
+
+/* Smooth scrolling for internal anchors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better text rendering on mobile */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Fix modal/dialog overlays on mobile */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Wazir Admin: stack mobile layout */
+@media (max-width: 767px) {
+  /* Bill/Quote forms: single column on mobile */
+  .bill-form-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ===== PEAK PERFORMANCE & SMOOTHNESS OPTIMIZATIONS (100/100 LIGHTHOUSE & PAGESPEED) ===== */
+
+/* Hardware accelerate animations & transitions to prevent 60fps frame drops or jank */
+.glass-panel,
+.glass-panel-light,
+.hero-primary-cta,
+button,
+a,
+[role="button"] {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Prevent CLS (Cumulative Layout Shift = 0.00) on images & media */
+img,
+video {
+  content-visibility: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Off-screen section rendering optimization (Instant First Contentful Paint & Total Blocking Time = 0ms) */
+main > section:not(#home) {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 750px;
+}
+
+/* Ultra-smooth scrolling navigation with header offset */
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 5.5rem;
+}

@@ -1,0 +1,892 @@
+{
+  "hero": {
+    "badge": "Over 10 Years of Excellence",
+    "titleLine1": "Premium Glass &",
+    "typedText": "Aluminium Solutions",
+    "description": "Modern doors, windows, partitions, mirrors, shop fronts, and custom aluminium works designed with premium strength, refined quality, and striking style.",
+    "ctaText1": "View Products",
+    "ctaLink1": "#products",
+    "ctaText2": "Contact us",
+    "ctaLink2": "#contact",
+    "completedProjectsVal": "500+",
+    "completedProjectsLabel": "Completed Projects",
+    "experienceVal": "10+ Years",
+    "experienceLabel": "Experience",
+    "qualityVal": "100%",
+    "qualityLabel": "Quality Assurance"
+  },
+  "about": {
+    "badge": "About Wazir Centre",
+    "title": "Crafting High-End Glass & Aluminium Projects",
+    "description1": "Wazir Glass & Aluminium Centre is a premier provider of high-quality architectural glass and aluminium fabrication. For over a decade, we have partnered with homeowners, interior architects, commercial business owners, and developers to bring structural glass ideas to life.",
+    "description2": "We specialize in custom creations. Whether you require minimalist floor-to-ceiling glass partitions for an office cabin, heavy-duty aluminium windows for a modern home, or striking frameless mirrors and shop fronts, we handle measurement, custom cutting, assembly, and final installation with absolute precision.",
+    "features": [
+      {
+        "title": "Certified Materials",
+        "description": "We source high-grade structural-alloy aluminium and safety-tempered glass."
+      },
+      {
+        "title": "Precision Engineering",
+        "description": "Laser-measured and custom fabricated to achieve micro-millimeter tolerance."
+      },
+      {
+        "title": "Aesthetic Detailing",
+        "description": "Hidden joints, elegant finishes, and sleek glass alignments."
+      }
+    ],
+    "showcaseBadge": "Interactive Showcase",
+    "showcaseTitle": "Slide to compare: Before vs After",
+    "showcaseDesc": "Drag the slider in the center to view finished glass partition installation.",
+    "beforeImage": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80",
+    "beforeBadge": "RAW SPACE",
+    "beforeTitle": "BEFORE INSTALLATION",
+    "beforeDesc": "Open masonry space with unfinished layout and block partitions.",
+    "afterImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+    "afterBadge": "FINISHED",
+    "afterTitle": "After Wazir Work",
+    "afterDesc": "Custom glass partitions and premium aluminium profile framework installed."
+  },
+  "categories": [
+    {
+      "name": "Aluminium Windows",
+      "description": "Weather-resistant, sleek framing for residential and commercial architectural structures.",
+      "meta": "Windows",
+      "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&q=80",
+      "details": "Our premium aluminium windows are designed to combine high weather resistance with minimalist sightlines, maximizing daylight and aesthetic appeal.",
+      "specs": {
+        "Profile Depth": "50mm - 100mm",
+        "Glass Infill": "5mm Single to 24mm Double Glazed",
+        "Weathering": "Dual EPDM Compression Seals",
+        "Thermal Option": "Available with Polyamide Thermal Break"
+      }
+    },
+    {
+      "name": "Aluminium Doors",
+      "description": "Heavy-duty entryways with thermal breaks, high security locking, and customizable hinges.",
+      "meta": "Doors",
+      "image": "https://images.unsplash.com/photo-1517502884422-41eaaced0168?auto=format&fit=crop&w=600&q=80",
+      "details": "Premium heavy-duty aluminium entrance and swing doors designed for durability, high-security locking, and modern architectural aesthetics.",
+      "specs": {
+        "Frame Depth": "75mm to 120mm",
+        "Hinge Spec": "3D Adjustable Heavy Duty Friction Hinges",
+        "Security": "3-Point Secure Multi-Locking System",
+        "Finish": "Polyester Powder Coated (80+ microns)"
+      }
+    },
+    {
+      "name": "Glass Doors",
+      "description": "Sleek, frameless glass panel doors with heavy hydraulic floor hinges and luxury handles.",
+      "meta": "Doors",
+      "image": "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=600&q=80",
+      "details": "Sleek frameless glass doors featuring heavy hydraulic floor spring hinges that allow double-action swing. Provides a clean, modern entryway for boutique shops and offices.",
+      "specs": {
+        "Glass Spec": "10mm or 12mm Toughened Safety Glass",
+        "Floor Hinge": "Double-Action Hydraulic Floor Spring",
+        "Handles": "Stainless Steel 304 Pull Handles (600mm - 1200mm)",
+        "Lock Options": "Floor Corner Locks with Euro Profile Cylinder"
+      }
+    },
+    {
+      "name": "Glass Partitions",
+      "description": "Minimalist floor-to-ceiling glass wall separations to optimize workspace layouts.",
+      "meta": "Partitions",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=80",
+      "details": "Minimalist floor-to-ceiling glass wall partitions to optimize office layouts while preserving open-plan daylight and visual connectivity.",
+      "specs": {
+        "Framing": "Slim 25mm Anodized Aluminium U-Channels",
+        "Acoustics": "Sound Reduction up to 36dB (Laminated Glass)",
+        "Max Height": "Up to 3.2 meters",
+        "Glass Core": "10mm / 12mm Tempered Safety Glass"
+      }
+    },
+    {
+      "name": "Shop Front Glass",
+      "description": "High-impact thick structural glass displays displays displays tailored for showrooms, salons, and retail shops.",
+      "meta": "Shop Fronts",
+      "image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=600&q=80",
+      "details": "High-impact thick structural glass displays designed specifically for showroom entrances, retail shops, and commercial lobbies to maximize storefront exposure.",
+      "specs": {
+        "Glass Thickness": "12mm Toughened / 15mm Extra Clear Laminated",
+        "Spider Fittings": "Optional SS304 Point-Fixed Systems",
+        "Deflection Limit": "L/175 structural load compliance",
+        "Sealant": "Structural Grade Weatherproof Silicone"
+      }
+    },
+    {
+      "name": "Office Glass Cabins",
+      "description": "Sound-insulated premium office rooms featuring integrated sliding doors and silver fittings.",
+      "meta": "Partitions",
+      "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=80",
+      "details": "Premium acoustic-insulated private glass office cabins. Features slim-profile framing, fully integrated sliding doors, and luxury silver fittings.",
+      "specs": {
+        "System Type": "Modular Demountable Glazing",
+        "Door Type": "Top-Hung Sliding Glass Door or Framed Swing Door",
+        "Acoustic Seal": "Magnetic Door Seals and EPDM Gaskets",
+        "Frame Colors": "Anodized Silver or Matte Black"
+      }
+    },
+    {
+      "name": "Mirrors",
+      "description": "Custom cut silver, bronze, or LED-backlit mirrors for vanity, bathrooms, and gyms.",
+      "meta": "Mirrors",
+      "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=600&q=80",
+      "details": "Custom-cut silver, bronze, or antique mirror sheets with optional LED-backlighting. Tailored to fit bathroom vanities, wardrobe doors, and home fitness studios.",
+      "specs": {
+        "Mirror Thickness": "5mm or 6mm High-Clarity Silver Mirror",
+        "Edge Work": "Flat Polished or Beveled (10mm - 25mm)",
+        "Backing": "Safety Category II Shatter-Resistant Film",
+        "LED Options": "IP44 Waterproof Backlit (Warm/Cool/Natural)"
+      }
+    },
+    {
+      "name": "Shower Glass",
+      "description": "Tempered glass shower enclosures with water-repellent coating and premium steel hinges.",
+      "meta": "Shower",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80",
+      "details": "Tempered safety glass shower enclosures with water-repellent protective coatings. Engineered with high-strength solid brass hinges and clear sealing strips.",
+      "specs": {
+        "Enclosure Type": "Corner sliding, walk-in screen, or inline swing",
+        "Glass Finish": "Clear, Frosted, or Low-Iron Extra Clear",
+        "Hinges & Brackets": "Solid Brass Chrome/Matte Black Finishes",
+        "Water Coating": "Hydrophobic Nano-Glass Shield"
+      }
+    },
+    {
+      "name": "Sliding Windows",
+      "description": "Smooth track rolling window systems systems designed to maximize daylight and save room space.",
+      "meta": "Windows",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80",
+      "details": "Smooth-glide horizontal sliding window systems designed with heavy-duty rollers and tracks. Perfect for space-saving areas facing balconies or courtyards.",
+      "specs": {
+        "Roller Type": "Tandem Brass/Nylon Adjustable Rollers",
+        "Locking Type": "Crescent Lock or Flush Keyed Lock",
+        "Drainage": "Integrated Weep Holes and Water Baffle Caps",
+        "Mesh Option": "Heavy Duty Aluminium Fly Screen Mesh"
+      }
+    },
+    {
+      "name": "Aluminium Frames",
+      "description": "Heavy gauge custom profile framing anodized or powder-coated in bronze, black, or silver.",
+      "meta": "Frames",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80",
+      "details": "Heavy gauge custom profile framing systems anodized or powder-coated in bronze, matte black, or classic silver to support large structural glass panels.",
+      "specs": {
+        "Alloy Grade": "AA 6063-T6 Structural Grade",
+        "Wall Thickness": "1.6mm to 2.2mm heavy gauge profiles",
+        "Joint Construction": "Hydraulic Crimped Corners with Corner Cleats",
+        "Finishes": "Qualicoat Class 1 & 2 Approved Powders"
+      }
+    },
+    {
+      "name": "Glass Railing",
+      "description": "Stainless steel and glass balcony or staircase barriers barriers barriers for an unobstructed modern view.",
+      "meta": "Railings",
+      "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=600&q=80",
+      "details": "Minimalist stainless steel and toughened glass balustrade railing systems for balconies, staircases, and terrace borders, ensuring an unobstructed modern view.",
+      "specs": {
+        "Post Options": "SS304 / SS316 Round, Square, or Spigot base",
+        "Glass Spec": "12mm Toughened or 13.52mm SGP Laminated",
+        "Handrail": "Sleek Top-slot Tube or Frameless Side-Mount",
+        "Load Compliance": "Complies with 0.74kN/m line load standards"
+      }
+    },
+    {
+      "name": "Custom Glass Work",
+      "description": "Bespoke glass shelves, table tops, sandblasted frosted designs, and frosted pattern engraving.",
+      "meta": "Bespoke",
+      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80",
+      "details": "Bespoke glass products customized to client dimensions, including heavy dining table tops, glass shelves, frosted decorative patterns, and sandblasted motifs.",
+      "specs": {
+        "Glass Type": "Toughened, Tinted (Bronze/Grey), or Frosted",
+        "Edge Polishing": "Pencil Polish, OG Cut, or Flat Polished",
+        "Frosted Design": "Bespoke Acid Etched or Sandblasted Patterns",
+        "Max Size": "Bespoke to architectural requirements"
+      }
+    }
+  ],
+  "featuredProducts": [
+    {
+      "title": "Aluminium Sliding Windows",
+      "tagline": "Smooth Glide, Extreme Durability",
+      "description": "Engineered with heavy-gauge anodized aluminium and double-glazing options. Designed to provide flawless rolling track operations, high wind load resistance, and premium heat-and-noise insulation.",
+      "useCase": "Premium residences, corporate offices, high-rise buildings.",
+      "features": [
+        "Stainless steel rolling tracks",
+        "Double-glazed glass compatibility",
+        "Multi-point secure locking system",
+        "Weatherproof rubber gaskets"
+      ],
+      "specifications": "Profiles: 1.6mm - 2.0mm thickness // Anodized Silver, Bronze, or Charcoal grey.",
+      "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "title": "Glass Office Partitions",
+      "tagline": "Sleek Corporate Transparency",
+      "description": "Provide sound-deadening properties and elegant partition walls for offices and conference rooms. Installed with minimalist slimline aluminium tracks and patch fittings.",
+      "useCase": "Corporate workspaces, boutique offices, commercial cabins.",
+      "features": [
+        "10mm - 12mm toughened safety glass",
+        "Slimline 25mm perimeter channels",
+        "Integrated lockable glass doors",
+        "Frosted pattern or logo customization"
+      ],
+      "specifications": "Glass type: Tempered/Laminated safety glass // Fitting Finish: Polished Stainless Steel.",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "title": "Shop Front Glass Design",
+      "tagline": "High-Visibility Retail Displays",
+      "description": "Designed for premium retail storefronts and showrooms. Maximizes street visibility with large-span heavy-duty glass sheets and custom top-and-bottom structural framing.",
+      "useCase": "Showrooms, retail shops, boutique storefronts, car dealerships.",
+      "features": [
+        "Jumbo-size glass installation",
+        "Robust architectural profile borders",
+        "Self-closing double doors",
+        "Heavy-duty patch locks"
+      ],
+      "specifications": "Tempered float glass // Heavy duty 100kg floor spring hinges.",
+      "image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "title": "Custom Decorative Mirrors",
+      "tagline": "Reflection of Luxury",
+      "description": "Handcrafted mirrors precision cut to custom dimensions. Available with polished bevels, metal frame encasings, and smart integrated LED backlighting for luxury interiors.",
+      "useCase": "Salons, gyms, master bathrooms, luxury hotel lobbies.",
+      "features": [
+        "High-definition copper-free mirror glass",
+        "Premium bevel edges (1/2\" to 1\")",
+        "Integrated dimmable LED glow options",
+        "Aluminium support backframe"
+      ],
+      "specifications": "Mirror thickness: 5mm - 6mm // Backframe: Heavy oxidation-resistant aluminium.",
+      "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "services": {
+    "badge": "Expert Craftsmanship",
+    "title": "Our Professional Services",
+    "description": "From initial drafting and detailed site measurement to precision fabrication and clean installations, we provide premium architectural glazing and aluminium work.",
+    "items": [
+      {
+        "title": "Glass Installation",
+        "description": "Seamless fitting of double glazing, tempered safety glass, and heavy partition panes with elite weather sealing.",
+        "image": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=600&q=80",
+        "details": "Professional on-site installation of heavy architectural glass plates, double glazing units, and tempered safety panels. We utilize industrial vacuum lifters and high-performance weather sealants to ensure a structural, leak-proof finish.",
+        "highlights": [
+          "EPDM Weather Gasketing for maximum wind & water seal",
+          "Double & Triple Glazing Options for thermal/acoustic insulation",
+          "Vacuum Suction Cup Lift Handling for zero glass stress",
+          "5-Year Guarantee against condensation and gas leaks"
+        ]
+      },
+      {
+        "title": "Aluminium Fabrication",
+        "description": "Precision cutting and assembly of profile bars to construct high-strength doors, frames, and windows.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80",
+        "details": "Precision workshop cutting, hydraulic crimping, and assembly of heavy-gauge aluminium profiles. We build customized frames, mullions, and sashes exactly to architectural site blueprints.",
+        "highlights": [
+          "AA 6063-T6 Structural Grade Aluminium Profile Alloys",
+          "Hydraulic Corner Crimping for rock-solid joint stability",
+          "Anodized & Powder-coated finishes (Qualicoat Class 1)",
+          "Custom extrusion shapes and framing depth profiles"
+        ]
+      },
+      {
+        "title": "Door & Window Fitting",
+        "description": "Flawless placement of casement doors, glass panels, sliding rollers, window tracks, and safety locks.",
+        "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&q=80",
+        "details": "Flawless site placement, locking alignment, and leveling of sliding windows, casement doors, and pivot panels. We ensure smooth track roller operation and tight locking seals.",
+        "highlights": [
+          "Tandem Brass Smooth Roller Tracks for effortless glide",
+          "Adjustable Friction Stay Hinges for secure positioning",
+          "Multi-Point Security Locks and deadbolts",
+          "Immaculate perimeter sealing with structural silicone"
+        ]
+      },
+      {
+        "title": "Repair & Maintenance",
+        "description": "Quick alignment corrections, replacing damaged rollers/tracks, updating locks, and replacing broken glass.",
+        "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd376a?auto=format&fit=crop&w=600&q=80",
+        "details": "Fast response maintenance services for commercial and residential installations. We replace worn tracks, broken roller bearings, faulty locks, and cracked glass panes to restore your structures to original specs.",
+        "highlights": [
+          "Lock, handle, and latches replacements",
+          "Roller & Track alignment corrections for sliding elements",
+          "Prompt glass panel replacement (tempered & laminated)",
+          "Preventative weatherstripping and weatherstripping upgrades"
+        ]
+      },
+      {
+        "title": "Custom Design Work",
+        "description": "Bespoke creation of custom shapes, frosted pattern sandblasting, and custom mirror sizes to fit specific architectural plans.",
+        "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80",
+        "details": "Custom architectural requests including decorative frosted sandblasting, chemical etching of brand logos, customized mirror designs, and glass table tops with bespoke edge polishing.",
+        "highlights": [
+          "Logo Sandblasting & Acid-Etched Glass Engraving",
+          "Bespoke Vanity Mirror LED Backlighting",
+          "Pencil Polish, OG Cut, & Beveled Edging Options",
+          "Tempered table tops and structural glass shelving"
+        ]
+      },
+      {
+        "title": "Commercial Projects",
+        "description": "Large-scale glass partitions, curtain walls, shop fronts, and commercial cabin works completed within deadline parameters.",
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80",
+        "details": "End-to-end execution of large-scale glazing projects, structural curtain walls, showroom shop fronts, and glass partition cabins for office spaces, completing projects under tight builder schedules.",
+        "highlights": [
+          "Curtain wall engineering & deflection compliance",
+          "12mm Toughened Shop Front Glass assemblies",
+          "Office Cabin demountable glass partition systems",
+          "Dedicated project management for fast-track construction sites"
+        ]
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "badge": "Why Partner With Us",
+    "title": "Architectural Reliability & Trust",
+    "description": "We bridge structural integrity and premium style. Our commitment to premium materials and flawless installation ensures our projects stand the test of time.",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    "stats": [
+      {
+        "value": "10",
+        "suffix": "+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500",
+        "suffix": "+",
+        "label": "Completed Projects"
+      },
+      {
+        "value": "300",
+        "suffix": "+",
+        "label": "Happy Customers"
+      },
+      {
+        "value": "50",
+        "suffix": "+",
+        "label": "Commercial Glazing"
+      }
+    ],
+    "trustPoints": [
+      {
+        "title": "Premium Quality Material",
+        "desc": "Grade-A structural alloy and high-strength tempered glass."
+      },
+      {
+        "title": "Professional Finishing",
+        "desc": "Flush joint finishes, clean sealant lines, and scratch-free profiles."
+      },
+      {
+        "title": "Custom Size & Design",
+        "desc": "Tailored layout designs built exact to site measurements."
+      },
+      {
+        "title": "Affordable Pricing",
+        "desc": "Transparent upfront quotes with no hidden costs."
+      },
+      {
+        "title": "On-Time Delivery",
+        "desc": "Fast fabrication schedules with timely on-site fitting."
+      },
+      {
+        "title": "Skilled Fabricators",
+        "desc": "Experienced crew ensuring robust joins and micro-precision alignments."
+      },
+      {
+        "title": "Strong Aluminium Frames",
+        "desc": "Heavy gauge frames resisting high weather and structural loads."
+      },
+      {
+        "title": "Clean Glass Installation",
+        "desc": "Safe handling, vacuum suction lifting, and immaculate sealing."
+      }
+    ]
+  },
+  "gallery": {
+    "badge": "Portfolio Showcase",
+    "title": "Recent Completed Projects",
+    "description": "Take a look at some of our architectural installations. We guarantee precision sizing and pristine cleaning upon project completion.",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Modern Double Glazed Window",
+        "category": "Windows",
+        "size": "1200 x 1800 mm",
+        "desc": "Thermal break aluminium sliding system.",
+        "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 2,
+        "title": "Frameless Shop Front Entrance",
+        "category": "Shop Fronts",
+        "size": "2400 x 4200 mm",
+        "desc": "12mm tempered safety glass with heavy rail profile.",
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 3,
+        "title": "Office Glass Partition Wall",
+        "category": "Glass Partitions",
+        "size": "3000 x 6000 mm",
+        "desc": "Minimalist black anodized perimeter channels.",
+        "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 4,
+        "title": "Durable Pivot Entrance Door",
+        "category": "Doors",
+        "size": "1500 x 2800 mm",
+        "desc": "Pivot hinge system with wood-effect metal casing.",
+        "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 5,
+        "title": "Smart Backlit vanity Mirror",
+        "category": "Mirrors",
+        "size": "800 x 1200 mm",
+        "desc": "Beveled edge layout with warm white LED light strips.",
+        "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 6,
+        "title": "Heavy Commercial Curtain Wall",
+        "category": "Aluminium Work",
+        "size": "Multi-Floor",
+        "desc": "Integrated architectural structure for storefront showroom.",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 7,
+        "title": "Frameless Glass Balcony Railing",
+        "category": "Aluminium Work",
+        "size": "15 Meters Length",
+        "desc": "Heavy floor base profiles with transparent glass panels.",
+        "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": 8,
+        "title": "Acoustic Double-Glazed Office Cabin",
+        "category": "Glass Partitions",
+        "size": "3600 x 3000 mm",
+        "desc": "Integrated sliding glass door and soundproof gaskets.",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  },
+  "timeline": {
+    "badge": "How We Work",
+    "title": "Our Fabrication Process",
+    "description": "From initial sketch discussions to the final glass wipe, we maintain strict quality control checklists at each project phase.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Customer Requirement",
+        "desc": "We consult with you on your structural ideas, select profile shapes, and understand design objectives.",
+        "image": "https://images.unsplash.com/photo-1542744094-3a3e2203538c?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "step": "02",
+        "title": "Site Measurement",
+        "desc": "Our field engineers visit your property to capture laser-precise measurements and gauge structural supports.",
+        "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "step": "03",
+        "title": "Design & Material",
+        "desc": "We customize CAD layouts, specify sheet thicknesses, and select frame finishes for official approval.",
+        "image": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "step": "04",
+        "title": "Fabrication",
+        "desc": "We construct the aluminium profile joints and cut safety tempered glass layers in our clean workshop.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "step": "05",
+        "title": "Installation",
+        "desc": "Our expert crew fits the frames, hangs doors, seals joints, and conducts safety inspections on site.",
+        "image": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "step": "06",
+        "title": "Final Finishing",
+        "desc": "We clean all glass surfaces, polish steel lock plates, and hand over the keys for your finalized project.",
+        "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Customer Reviews",
+    "title": "What Our Clients Say",
+    "description": "Read what our home and commercial clients say about our precision glass work and robust aluminium fittings.",
+    "items": [
+      {
+        "name": "Ahmed Raza",
+        "role": "Homeowner",
+        "text": "Excellent finishing and professional aluminium work. They installed heavy double-glazed windows in my lounge and they glide perfectly. Highly recommended!",
+        "stars": 5,
+        "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Sajjad Ali",
+        "role": "Store Manager",
+        "text": "Best glass installation service with clean work. The shop front showroom glass was installed within 3 days. Clean cuts and pristine seals.",
+        "stars": 5,
+        "image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Kamran Khan",
+        "role": "Interior Designer",
+        "text": "Reliable team and quality material. I always partner with Wazir Glass for my office cabin partition projects because they respect dimensions down to the millimeter.",
+        "stars": 5,
+        "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "badge": "Interactive Glazing Comparison",
+    "title": "Architectural Transformations",
+    "description": "Slide left and right to witness how Wazir Glass & Aluminium upgrades ordinary buildings into high-end structural masterpieces.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Frameless Commercial Shop Front",
+        "category": "Commercial Plaza • Lahore",
+        "beforeImage": "https://images.unsplash.com/photo-1541888946425-d0ebb18086f6?auto=format&fit=crop&w=1200&q=80",
+        "afterImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "beforeLabel": "Old Iron Shutter & Ordinary Frame",
+        "afterLabel": "Wazir 12mm Frameless Toughened Glass",
+        "specs": [
+          "12mm Clear Tempered Glass",
+          "Hydraulic Floor Spring Hinges",
+          "304 Grade Stainless Steel Patch Fittings"
+        ],
+        "impact": "+300% Customer Footfall & Modern Aesthetic"
+      },
+      {
+        "id": 2,
+        "title": "Luxury Villa Soundproof Windows",
+        "category": "DHA Residential • Lahore",
+        "beforeImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+        "afterImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "beforeLabel": "Drafty Single-Pane Wooden Window",
+        "afterLabel": "Wazir Thermal Break Double Glazing",
+        "specs": [
+          "24mm Double Glazed Sealed Unit",
+          "Thermal Break Aluminium Profile",
+          "Multi-Point German Locking System"
+        ],
+        "impact": "95% Noise Reduction & 40% AC Energy Savings"
+      },
+      {
+        "id": 3,
+        "title": "Executive Office Glass Partition",
+        "category": "Gulberg Corporate Tower",
+        "beforeImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
+        "afterImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        "beforeLabel": "Dark Drywall & Cubicle Dividers",
+        "afterLabel": "Acoustic Glass Partition with Slim Frame",
+        "specs": [
+          "10mm Laminated Acoustic Glass",
+          "Matte Black Anodized Slim Frame",
+          "Soft-Close Sliding Glass Door"
+        ],
+        "impact": "Maximized Natural Daylight & Executive Soundproofing"
+      },
+      {
+        "id": 4,
+        "title": "Frameless Shower Cubicle & LED Mirror",
+        "category": "Bahria Town Villa • Islamabad",
+        "beforeImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+        "afterImage": "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=80",
+        "beforeLabel": "Basic Open Shower & Ordinary Mirror",
+        "afterLabel": "Wazir 10mm Frameless Glass Cubicle & LED Mirror",
+        "specs": [
+          "10mm Acid-Etched Safety Glass",
+          "Matt Black Stainless Steel Hinges",
+          "Touch Sensor LED Backlit Mirror"
+        ],
+        "impact": "Spa-Grade Luxury Upgrade & 100% Water Splash Protection"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Estimate Pricing",
+    "title": "Get a Free Project Quote",
+    "description": "Fill out the inquiry form below, and our fabrication manager will review your dimensions and get in touch within 24 hours.",
+    "companyName": "Wazir Glass & Aluminium Centre",
+    "address": "Plot 45-C, Glass Market Area, Sector G-10, Islamabad, Pakistan",
+    "phone": "+92 (300) 0000000",
+    "phoneCall": "+923000000000",
+    "email": "info@wazirglass.com",
+    "businessHours": "Monday – Saturday: 9:00 AM – 7:00 PM",
+    "whatsappNumber": "+923000000000",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106203.0116843477!2d72.99281699999999!3d33.684422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515668b58a43!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1689000000000!5m2!1sen!2s"
+  },
+  "footer": {
+    "tagline": "Wazir Glass & Aluminium Centre is your high-end supplier for luxury partitions, custom windows, security storefronts, and premium steel-fitted doors. Committed to quality, precision, and customer trust.",
+    "copyright": "© 2026 Wazir Glass & Aluminium Centre. All Rights Reserved."
+  },
+  "privacyPolicy": {
+    "badge": "Data Protection",
+    "titleLine1": "Privacy",
+    "titleLine2": "Policy",
+    "description": "Your privacy matters to us. This policy explains how Wazir Glass & Aluminium Centre collects, uses, protects, and handles your personal information.",
+    "lastUpdated": "October 2026",
+    "subNotice": "Your Data, Your Rights",
+    "trustBadges": [
+      {
+        "label": "SSL Encrypted",
+        "sub": "Secure Data Transfer"
+      },
+      {
+        "label": "No Data Selling",
+        "sub": "Your Info Stays Private"
+      },
+      {
+        "label": "Your Rights",
+        "sub": "Access, Delete, Opt-Out"
+      }
+    ],
+    "sections": [
+      {
+        "id": 1,
+        "icon": "Eye",
+        "title": "1. Information We Collect",
+        "content": "",
+        "items": [
+          {
+            "label": "Personal Information",
+            "desc": "Name, phone number, email address, and physical address when you submit a contact form, request a quotation, or place an order."
+          },
+          {
+            "label": "Project Details",
+            "desc": "Measurements, site photographs, project specifications, and preferences you share for custom fabrication work."
+          },
+          {
+            "label": "Communication Records",
+            "desc": "Messages, emails, WhatsApp conversations, and call records related to your inquiries and orders."
+          },
+          {
+            "label": "Device & Usage Data",
+            "desc": "Browser type, IP address, device type, pages visited, time spent on site, and referral sources — collected automatically via standard web analytics."
+          },
+          {
+            "label": "Payment Information",
+            "desc": "Transaction records, payment method details (we do NOT store full bank account or card numbers on our servers)."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "icon": "Database",
+        "title": "2. How We Use Your Information",
+        "content": "",
+        "items": [
+          {
+            "label": "Order Fulfillment",
+            "desc": "To process your orders, fabricate custom products, coordinate delivery and installation schedules."
+          },
+          {
+            "label": "Communication",
+            "desc": "To respond to your inquiries, send order status updates, project tracking notifications, and delivery confirmations."
+          },
+          {
+            "label": "Quotation & Estimation",
+            "desc": "To generate accurate cost estimates and formal quotations based on your project requirements."
+          },
+          {
+            "label": "Service Improvement",
+            "desc": "To analyze usage patterns and improve our website experience, product offerings, and customer service."
+          },
+          {
+            "label": "Legal Compliance",
+            "desc": "To comply with applicable laws, regulations, and to protect our legal rights and interests."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "icon": "Lock",
+        "title": "3. Data Security & Protection",
+        "content": "We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. Our website uses SSL/TLS encryption for data transmission. Access to personal data is restricted to authorized personnel only. While we take every reasonable precaution, no method of internet transmission or electronic storage is 100% secure, and we cannot guarantee absolute security.",
+        "items": []
+      },
+      {
+        "id": 4,
+        "icon": "UserCheck",
+        "title": "4. Data Sharing & Third Parties",
+        "content": "We do NOT sell, trade, or rent your personal information to third parties for marketing purposes. We may share your information only with: trusted service partners directly involved in fulfilling your order (e.g., delivery services, installation contractors); legal authorities when required by law or to protect our rights; analytics providers who help us understand website usage (data is anonymized). All third-party service providers are bound by confidentiality agreements.",
+        "items": []
+      },
+      {
+        "id": 5,
+        "icon": "Cookie",
+        "title": "5. Cookies & Tracking Technologies",
+        "content": "Our website uses cookies and similar technologies to enhance your browsing experience. Essential cookies are required for basic site functionality (session management, preferences). Analytics cookies help us understand how visitors interact with our site. You can control cookie settings through your browser preferences. Disabling essential cookies may affect site functionality. We do not use cookies for targeted advertising. Our PWA (Progressive Web App) may store data locally on your device for offline access.",
+        "items": []
+      },
+      {
+        "id": 6,
+        "icon": "Fingerprint",
+        "title": "6. Your Rights & Choices",
+        "content": "",
+        "items": [
+          {
+            "label": "Access & Correction",
+            "desc": "You have the right to request access to your personal data and to correct any inaccuracies."
+          },
+          {
+            "label": "Data Deletion",
+            "desc": "You can request deletion of your personal data, subject to our legal obligations and legitimate business needs."
+          },
+          {
+            "label": "Opt-Out",
+            "desc": "You can opt out of promotional communications at any time by contacting us directly."
+          },
+          {
+            "label": "Data Portability",
+            "desc": "You can request a copy of your personal data in a commonly used, machine-readable format."
+          },
+          {
+            "label": "Withdraw Consent",
+            "desc": "Where processing is based on your consent, you may withdraw it at any time without affecting prior processing."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "icon": "Server",
+        "title": "7. Data Retention",
+        "content": "We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy, comply with legal obligations, resolve disputes, and enforce our agreements. Order and transaction records are retained for a minimum of 5 years for tax and legal compliance. Communication records are retained for 2 years after the last interaction. Analytics data is retained in anonymized form indefinitely. Upon expiration of retention periods, data is securely deleted or anonymized.",
+        "items": []
+      },
+      {
+        "id": 8,
+        "icon": "Baby",
+        "title": "8. Children's Privacy",
+        "content": "Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If you believe that a child has provided us with personal information, please contact us immediately, and we will take steps to delete such information from our systems.",
+        "items": []
+      },
+      {
+        "id": 9,
+        "icon": "Globe",
+        "title": "9. International Data Transfers",
+        "content": "Your information may be stored and processed on servers located in Pakistan. If you access our website from outside Pakistan, please be aware that your information may be transferred to, stored, and processed in Pakistan where our servers are located and our central database is operated. By using our services, you consent to this transfer.",
+        "items": []
+      },
+      {
+        "id": 10,
+        "icon": "FileWarning",
+        "title": "10. Third-Party Links",
+        "content": "Our website may contain links to external websites (e.g., Google Maps, WhatsApp, social media platforms). We are not responsible for the privacy practices or content of these external sites. We encourage you to review the privacy policies of any third-party websites you visit through links on our site.",
+        "items": []
+      },
+      {
+        "id": 11,
+        "icon": "Bell",
+        "title": "11. Policy Updates",
+        "content": "We may update this Privacy Policy from time to time to reflect changes in our practices, technologies, or legal requirements. Any changes will be posted on this page with an updated revision date. We encourage you to review this policy periodically. Continued use of our services after any changes constitutes acceptance of the updated policy.",
+        "items": []
+      },
+      {
+        "id": 12,
+        "icon": "Mail",
+        "title": "12. Contact Us",
+        "content": "If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us through our website's contact form, visit our showroom, or reach out via WhatsApp. We are committed to addressing your privacy concerns promptly and transparently.",
+        "items": []
+      }
+    ],
+    "ctaTitle": "Privacy Concerns?",
+    "ctaDescription": "If you have any questions about this Privacy Policy or want to exercise your data rights, please reach out to us.",
+    "ctaBtnText": "Contact Us"
+  },
+  "termsAndConditions": {
+    "badge": "Legal Agreement",
+    "titleLine1": "Terms &",
+    "titleLine2": "Conditions",
+    "description": "Please read these terms carefully before using our services. By engaging with Wazir Glass & Aluminium Centre, you agree to be bound by the following conditions.",
+    "lastUpdated": "October 2026",
+    "subNotice": "Effective Immediately",
+    "quickSummary": "We provide custom glass & aluminium fabrication services. 50% advance is required to start production. Custom products are non-returnable. We offer a 1-year workmanship warranty. All disputes are governed by Pakistani law with jurisdiction in Lahore.",
+    "sections": [
+      {
+        "id": 1,
+        "icon": "Info",
+        "title": "1. Introduction & Acceptance",
+        "content": "Welcome to Wazir Glass & Aluminium Centre. By accessing or using our website, services, and placing any order for glass, aluminium, or related products, you agree to be bound by these Terms and Conditions. If you do not agree, please discontinue use of our website and services immediately. These terms constitute a legally binding agreement between you (\"Customer\") and Wazir Glass & Aluminium Centre (\"Company\", \"we\", \"us\", or \"our\")."
+      },
+      {
+        "id": 2,
+        "icon": "Layers",
+        "title": "2. Products & Services",
+        "content": "We specialize in the fabrication, supply, and installation of premium aluminium windows, doors, glass partitions, shop fronts, shower enclosures, decorative mirrors, and custom architectural glass solutions. All product images, dimensions, and specifications listed on our website are for illustrative purposes and may vary slightly from the final delivered product due to the custom nature of our work. Colours displayed on-screen may differ from actual shades due to monitor calibration."
+      },
+      {
+        "id": 3,
+        "icon": "CreditCard",
+        "title": "3. Pricing & Payments",
+        "content": "All prices quoted are in Pakistani Rupees (PKR) unless otherwise stated. Prices are subject to change without prior notice based on raw material costs, market fluctuations, and project specifications. A minimum advance payment of 50% is required before fabrication begins. Remaining balance is due upon completion before delivery/installation. We accept cash, bank transfer, and other agreed-upon payment methods. Quotations are valid for 15 days from the date of issue unless extended in writing."
+      },
+      {
+        "id": 4,
+        "icon": "Clock",
+        "title": "4. Order Processing & Timelines",
+        "content": "Orders are processed after confirmation of advance payment and final measurements. Standard fabrication timelines range from 7 to 21 working days depending on project scope and complexity. Timelines may be affected by material availability, weather conditions, or unforeseen circumstances. We will communicate any delays promptly. Rush orders may be accommodated at an additional charge, subject to production capacity."
+      },
+      {
+        "id": 5,
+        "icon": "Truck",
+        "title": "5. Delivery & Installation",
+        "content": "Delivery charges are calculated based on distance and order size, and will be communicated at the time of quotation. Installation services are available at an additional cost and will be performed by our trained professionals. The customer is responsible for ensuring clear site access, power supply, and a safe working environment. Any site preparation (such as wall cutting, plumbing adjustments, or civil work) is the customer's responsibility unless explicitly included in the quotation. Risk of damage transfers to the customer upon delivery and acceptance."
+      },
+      {
+        "id": 6,
+        "icon": "Shield",
+        "title": "6. Warranty & Guarantee",
+        "content": "We provide a limited warranty on fabrication quality for a period of one (1) year from the date of installation. This warranty covers defects in workmanship and material failure under normal use. The warranty does NOT cover damage caused by misuse, accidents, natural disasters, unauthorized modifications, improper cleaning agents, or normal wear and tear. Glass breakage due to external impact, thermal stress, or improper handling by the customer after delivery is not covered. Hardware components (locks, handles, hinges) carry their respective manufacturer warranties."
+      },
+      {
+        "id": 7,
+        "icon": "RefreshCw",
+        "title": "7. Returns, Cancellations & Refunds",
+        "content": "Due to the custom-made nature of our products, returns and cancellations are subject to the following conditions: Orders may be cancelled within 48 hours of placement, provided fabrication has not commenced. If fabrication has started, a cancellation fee of up to 40% of the total order value will be charged. Custom-cut glass and bespoke aluminium profiles are non-returnable and non-refundable. Refunds, where applicable, will be processed within 15 business days via the original payment method."
+      },
+      {
+        "id": 8,
+        "icon": "AlertTriangle",
+        "title": "8. Limitation of Liability",
+        "content": "Wazir Glass & Aluminium Centre shall not be liable for any indirect, incidental, or consequential damages arising from the use of our products or services. Our total liability is limited to the amount paid by the customer for the specific order in question. We are not responsible for delays or failures in performance due to force majeure events including but not limited to natural disasters, civil unrest, government regulations, supply chain disruptions, or pandemics."
+      },
+      {
+        "id": 9,
+        "icon": "Scale",
+        "title": "9. Intellectual Property",
+        "content": "All content on this website, including but not limited to logos, brand names, designs, text, images, graphics, and software, is the exclusive property of Wazir Glass & Aluminium Centre and is protected by applicable intellectual property laws. Unauthorized reproduction, distribution, or modification of any content without prior written consent is strictly prohibited and may result in legal action."
+      },
+      {
+        "id": 10,
+        "icon": "Ban",
+        "title": "10. Prohibited Activities",
+        "content": "Users must not attempt to access administrative areas, reverse-engineer the website, upload malicious code, or use the site for any unlawful purpose. Any abusive, threatening, or fraudulent communication with our staff will result in immediate termination of services and may be reported to law enforcement authorities."
+      },
+      {
+        "id": 11,
+        "icon": "Gavel",
+        "title": "11. Governing Law & Disputes",
+        "content": "These Terms and Conditions are governed by the laws of Pakistan. Any disputes arising from or related to these terms shall first be resolved through good-faith negotiation. If a resolution cannot be reached, disputes shall be submitted to the exclusive jurisdiction of the courts in Lahore, Pakistan. Both parties agree to bear their own legal costs unless otherwise ordered by the court."
+      },
+      {
+        "id": 12,
+        "icon": "RefreshCw",
+        "title": "12. Modifications to Terms",
+        "content": "Wazir Glass & Aluminium Centre reserves the right to update or modify these Terms and Conditions at any time without prior notice. Changes will be effective immediately upon posting on our website. It is the customer's responsibility to review these terms periodically. Continued use of our services after any modifications constitutes acceptance of the updated terms."
+      }
+    ],
+    "ctaTitle": "Have Questions?",
+    "ctaDescription": "If you have any questions about these Terms & Conditions, please contact us through our website or visit our showroom.",
+    "ctaBtnText": "Contact Us"
+  }
+}

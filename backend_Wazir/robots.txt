@@ -1,0 +1,35 @@
+# Wazir Glass & Aluminium Centre - Robots Directive
+User-agent: *
+Allow: /
+Allow: /api.php?action=get
+
+# Block internal admin and database scripts from search indexing
+Disallow: /backend_Wazir/
+Disallow: /*?action=delete*
+Disallow: /*?action=save*
+Disallow: /*?action=login*
+
+# Social Media Crawlers Explicit Permissions
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+Allow: /public/
+Allow: /uploads/
+
+User-agent: Googlebot-Image
+Allow: /uploads/
+Allow: /assets/
+
+# Sitemap Location
+Sitemap: https://wazirglass.com/sitemap.xml

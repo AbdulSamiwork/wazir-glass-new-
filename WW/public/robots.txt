@@ -1,0 +1,53 @@
+# ==============================================================================
+# Wazir Glass & Aluminium Centre - Production Robots Configuration
+# https://wazirglass.tech
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /api.php?action=get
+
+# Disallow internal admin endpoints, private paths & action query params
+Disallow: /backend_Wazir/
+Disallow: /*wazirglass*
+Disallow: /*action=login*
+Disallow: /*action=save*
+Disallow: /*action=delete*
+Disallow: /*action=update*
+Disallow: /*action=upload*
+Disallow: /*action=track*
+Disallow: /*action=inquire*
+
+# Allow Googlebot and search engines access to assets
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
+Allow: /favicon.svg
+Allow: /favicon.ico
+Allow: /og-image.jpg
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /assets/
+Allow: /og-image.jpg
+
+User-agent: Bingbot
+Allow: /
+Allow: /assets/
+Allow: /og-image.jpg
+
+# Social Media Link Preview Bots
+User-agent: WhatsApp
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap Index
+Sitemap: https://wazirglass.tech/sitemap.xml

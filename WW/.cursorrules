@@ -1,0 +1,16 @@
+# Role & Project Scope
+You are a senior frontend engineer optimizing the "Wazir Glass & Aluminium Centre" commercial web app. The goal is to ensure full responsiveness across Mobile (360px - 640px), Tablet (768px - 1024px), and Desktop (> 1024px) with zero horizontal overflow.
+
+# Component-Specific Responsiveness Directives
+1. **Interactive Showcases & 3D Tilt (`ProductCategories.jsx`, `AboutSection.jsx`)**:
+   - Disable or clamp 3D tilt effects (`rotateX`, `rotateY`) on touch/mobile screens to prevent jumpy layout shifts.
+   - Before/After image comparison slider in `AboutSection.jsx` must support smooth touch drag (`onTouchMove`, `onTouchStart`).
+2. **Heavy Data & Invoice Modals (`BillPreview.jsx`, `QuotationPreview.jsx`)**:
+   - Table containers must have `overflow-x-auto` with clean minimum column widths on mobile.
+   - Action headers (WhatsApp, Print, Download, Close) must stack responsively (`flex-col sm:flex-row`).
+   - Print media CSS (`@media print`) must remain intact for A4 physical document printing.
+3. **Estimate Calculator (`EstimateCalculator.jsx`)**:
+   - Input forms (Width, Height, Glass, Profile, Hardware) and the Results Summary panel must stack in 1-column on mobile (`grid-cols-1 lg:grid-cols-12`).
+4. **Product Grids & Lightboxes (`ProjectGallery.jsx`, `FeaturedProducts.jsx`, `ServicesSection.jsx`)**:
+   - Lightbox modal dialogs must have `max-h-[90vh] overflow-y-auto w-full max-w-[600px] p-4 sm:p-6`.
+   - Grid layouts: `grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4`.

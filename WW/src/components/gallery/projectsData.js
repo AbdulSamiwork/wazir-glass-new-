@@ -1,0 +1,10 @@
+export const defaultProjects = [
+  { id: 1, title: "Modern Double Glazed Window", category: "Windows", size: "1200 x 1800 mm", desc: "Thermal break aluminium sliding system.", image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80" },
+  { id: 2, title: "Frameless Shop Front Entrance", category: "Shop Fronts", size: "2400 x 4200 mm", desc: "12mm tempered safety glass with heavy rail profile.", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" },
+  { id: 3, title: "Office Glass Partition Wall", category: "Glass Partitions", size: "3000 x 6000 mm", desc: "Minimalist black anodized perimeter channels.", image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=80" },
+  { id: 4, title: "Durable Pivot Entrance Door", category: "Doors", size: "1500 x 2800 mm", desc: "Pivot hinge system with wood-effect metal casing.", image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80" },
+  { id: 5, title: "Smart Backlit vanity Mirror", category: "Mirrors", size: "800 x 1200 mm", desc: "Beveled edge layout with warm white LED light strips.", image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=600&q=80" },
+  { id: 6, title: "Heavy Commercial Curtain Wall", category: "Aluminium Work", size: "Multi-Floor", desc: "Integrated architectural structure for storefront showroom.", image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=600&q=80" },
+  { id: 7, title: "Frameless Glass Balcony Railing", category: "Aluminium Work", size: "15 Meters Length", desc: "Heavy floor base profiles with transparent glass panels.", image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" },
+  { id: 8, title: "Acoustic Double-Glazed Office Cabin", category: "Glass Partitions", size: "3600 x 3000 mm", desc: "Integrated sliding glass door and soundproof gaskets.", image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=600&q=80" }
+];

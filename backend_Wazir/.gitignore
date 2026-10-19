@@ -1,0 +1,11 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Temporary and Cache
+*.log
+cache/
+tmp/
+.DS_Store
+Thumbs.db
